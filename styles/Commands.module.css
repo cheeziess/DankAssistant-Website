@@ -1,0 +1,51 @@
+.loadEffect {
+    animation: fade 300ms linear forwards;
+    opacity: 0;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.mainTitleLoad {
+    animation: load-anim 300ms ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes load-anim {
+	0% {
+        opacity: 0;
+		transform: translateY(-100%);
+	}
+
+	100% {
+        opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.heading {
+  text-shadow: 2px 2px 0px #2b00ff;
+}
+
+
+.mainBody {
+  background: linear-gradient(132deg, #2c2b2e,#1e1d1f, #191819,#0d0d0d,#0d0d0d,#000000);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 10s ease infinite;
+}
+
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}

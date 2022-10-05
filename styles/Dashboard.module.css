@@ -1,0 +1,37 @@
+.mainTitle {
+    background: linear-gradient(
+		-45deg, 
+		#4CAF50 25%, 
+		#4CAF50 25%, 
+		#4CAF50 50%, 
+		#4CAF50 50%, 
+		#4CAF50 75%, 
+		#4CAF50 75%, 
+		#4CAF50);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    animation: text-shine 1s infinite alternate;
+}
+
+@keyframes text-shine {
+  to {
+    background-position: 200%;
+  }
+}
+
+.loadAnim {
+	animation: load-anim 500ms forwards;
+	opacity: 0;
+}
+
+@keyframes load-anim {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+

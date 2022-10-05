@@ -1,0 +1,19 @@
+.floatAnim {
+    animation: float-anim 5s ease-in infinite;
+}
+
+@keyframes float-anim {
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 10px); } 
+    100%   { transform: translate(0, -0px); }   
+}
+.floatAnim2 {
+    animation: float-anim-2 6s ease-in infinite;
+}
+
+@keyframes float-anim-2 {
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, -10px); } 
+    100%   { transform: translate(0, 0px); }   
+}
+
