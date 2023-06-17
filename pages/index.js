@@ -18,7 +18,7 @@ export default function Home({session}) {
     <div>
       <Head>
         <title>Dank Assistant Bot</title>
-        <meta name = "description" content = "Made by YARE" />
+        <meta name = "description" content = "Made by the Dank Assistant Development Team" />
           <link rel = "icon" href = "/favicon.ico" />
       </Head>
 

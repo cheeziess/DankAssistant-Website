@@ -55,7 +55,7 @@ const Hero = ({session}) => {
             <li className={`${session ? "bg-[#3400a5] rounded-lg text-center duration-300 font-semibold w-[200px] h-fit hover:bg-[#3400a5]/30 py-3 mt-3" : "hidden"}`}>
             <Link href="/dashboard">Dashboard</Link>
           </li>
-              
+
           </ul>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Hero = ({session}) => {
         <InfoCard2
           heading="Dank Memer Guides"
           description="Ever wanted to find out how to get certain pets, or the various types of possibilities in adventure? Dank Assistant has them all, and much more!"
-          imgSrc="https://cdn.discordapp.com/attachments/962897295999909938/971974921712443442/FF461C31-4F56-444B-B4E0-D9CD41860AED.jpeg"
+          imgSrc="https://media.discordapp.net/attachments/958646314227343432/1119708933423104220/image.png"
         />
         <InfoCard
           heading="Calculators"
@@ -123,9 +123,9 @@ const Hero = ({session}) => {
           imgSrc="https://cdn.discordapp.com/attachments/996083953255600231/996630043507839026/unknown.png"
         />
         <InfoCard2
-          heading="Auto Raffle"
-          description="Want to automate raffles? Dank Assistant has you covered! Just configure where you want the raffle to be and Dank Assistant will do the everything else automatically for you!"
-          imgSrc="https://cdn.discordapp.com/attachments/964770019470880781/998140108677054474/unknown.png"
+          heading="NEW: currency tables!"
+          description="Directly approved by the dank memer development team, these tables provide a way for you to reference what happens in adventures, searches, and crimes through a simple menu!"
+          imgSrc="https://media.discordapp.net/attachments/958646314227343432/1119710370865614980/image.png"
         />
         <InfoCard
           heading="Singapore Busarrival Utilities"
@@ -177,8 +177,8 @@ const Hero = ({session}) => {
           description="Minigames such as auto fight tourneys (coming soon) and even giveaway-donate (request) modules are bundled with the bot! These features are also highly customisable and modular in nature"
         />
         <MobileInfoCard
-          heading="Auto Raffle"
-          description="Want to automate raffles? Dank Assistant has you covered! Just configure where you want the raffle to be and Dank Assistant will do the everything else automatically for you!"
+          heading="NEW: currency tables!"
+          description="Directly approved by the dank memer development team, these tables provide a way for you to reference what happens in adventures, searches, and crimes through a simple menu!"
         />
         <MobileInfoCard
           heading="Singapore Busarrival Utilities"
