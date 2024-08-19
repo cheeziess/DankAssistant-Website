@@ -55,7 +55,7 @@ const Navbar = ({session}) => {
           </li>
           <li className="p-4 hover:scale-105 duration-300 hover:text-blue-600">
             <Link
-              href="https://discord.com/oauth2/authorize?client_id=815564870011453480&scope=bot%20applications.commands&permissions=347200&response_type=code&redirect_uri=https%3A%2F%2Fdankassistant.ga%2Flanding"
+              href="https://discord.com/oauth2/authorize?client_id=815564870011453480&scope=applications.commands+bot&permissions=2684865536"
               target="_blank"
             >
               Invite Bot
@@ -122,7 +122,7 @@ const Navbar = ({session}) => {
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500 duration-500 font-semibold"
             >
-              <Link href="https://discord.com/oauth2/authorize?client_id=815564870011453480&scope=bot%20applications.commands&permissions=347200&response_type=code&redirect_uri=https%3A%2F%2Fdankassistant.ga%2Flanding">
+              <Link href="https://discord.com/oauth2/authorize?client_id=815564870011453480&scope=applications.commands+bot&permissions=2684865536">
                 Invite Bot
               </Link>
             </li>
